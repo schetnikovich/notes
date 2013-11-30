@@ -87,7 +87,7 @@ Open *.pub file and edit the last symbols after space sign. For example:
 
     ssh-keygen -lf my-key
 
-## SSH config file to safe your life :)
+## SSH config file to save your life :)
 
 Edit  `~/.ssh/config` file (create if it doesn't exists).
 
@@ -100,9 +100,6 @@ Host ubuntik
 Host comp2
     HostName 191.12.122.145
     User mike 
-
-IdentityFile ~/.ssh/github
-IdentityFile ~/.ssh/server1  
 ```
 
 Now you can simply type:
@@ -163,6 +160,7 @@ Add as many `IdentityFile` directives as you want to your `~/.ssh/config` file:
 
 ```
 IdentityFile ~/.ssh/gitHubKey
-IdentityFile ~/.ssh/id_rsa_buhlServer 
+IdentityFile ~/.ssh/server1
+IdentityFile ~/.ssh/server2
 ```
 
