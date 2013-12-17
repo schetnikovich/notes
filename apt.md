@@ -22,5 +22,7 @@ Limit it with grep:
 
     $ dpkg -L ruby
 
+### View apt log
 
+    $ vim /var/log/apt/history.log
 
