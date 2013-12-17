@@ -35,6 +35,8 @@ You should run `make install`.
 
 It takes ~18 min on my machine.
 
+Build with `-debug` and `-release` options in two folders (for instance `qt-debug`, `qt-release`)
+
 To reconfigure, run `make confclean` and `configure` it again.
 
 ### Build QtCreator 3.0.0 on Ubuntu (13.10)
