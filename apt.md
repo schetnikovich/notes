@@ -26,3 +26,8 @@ Limit it with grep:
 
     $ vim /var/log/apt/history.log
 
+### Repositories of package
+
+List repositories package belongs to:
+
+    $ apt-cache policy openjdk-7-jdk
