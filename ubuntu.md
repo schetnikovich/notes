@@ -6,9 +6,10 @@
 
     sudo apt-get install ubuntu-desktop
 
-### Terminal background color
+### Terminal background color and font
 
-I know, this is not very important, but I used to the following background color of terminal: `#300A24`, and white (#FFFFFF) color of text.
+I know, this is not very important, but I used to the following background color of terminal: `#300A24`, and white (#FFFFFF) color of text. Font is Monospace 13.
+
 
 ### Install Thunar archive plugin
 
