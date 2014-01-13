@@ -13,7 +13,7 @@
 
 Edit `idea/bin/idea64.vmoptions` file:
 
--Dawt.useSystemAAFontSettings=on
--Dsun.java2d.xrender=true
--Dswing.aatext=true
+    -Dawt.useSystemAAFontSettings=on
+    -Dsun.java2d.xrender=true
+    -Dswing.aatext=true
 
