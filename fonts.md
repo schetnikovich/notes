@@ -24,3 +24,15 @@ Such fonts like Inconsalata, Droid are part of Google Web Fonts. They are all
 easely installable by TypeCatcher
 
     sudo apt-get install typecatcher
+
+### Use Open JDK patched with font fix
+
+Together with infinality patches, they makes font in Swing apps (Idea, Netbeans) looks
+much better.
+
+    $ sudo add-apt-repository ppa:no1wantdthisname/openjdk-fontfix
+    $ sudo apt-get update
+    $ sudo apt-get install openjdk-7-jdk
+
+Read more about it here: https://launchpad.net/~no1wantdthisname/+archive/openjdk-fontfix
+
