@@ -18,9 +18,17 @@ Limit it with grep:
 
     $ dpkg --get-selections | grep git
 
+### Hold package (prevent it from upgrade)
+
+    $ echo "packagename hold" | dpkg --set-selections
+
 ### View all installed files of package:
 
     $ dpkg -L ruby
+
+### Find package this file belongs to
+
+    $ dpkg -S /path/to/file
 
 ### View apt log
 
