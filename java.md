@@ -34,3 +34,20 @@ Edit `idea/bin/idea64.vmoptions` file:
     -Dswing.aatext=true
 
 You should install Infinality patches before (see `fonts.md`) to get the best result.
+
+### IDEA prefered fonts
+
+These fonts will work nicely only if you are using infinality patches and patched OpenJDK (see `fonts.md`).
+
+File -> Settings -> Appearance -> Override default fonts by:
+   
+    Font: Droid Sans
+    Size: 14
+
+File -> Settings -> Editor -> Color & Fonts -> Font:
+   
+    Font: DejaVu Sans Mono
+    Size: 17
+    Line spacing: 1.0
+
+
