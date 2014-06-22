@@ -15,7 +15,11 @@ When new version of openjdk-7-jdk will be available in Ubuntu repositories, this
 OpenJDK will be replaced by non patched from Ubuntu. To prevent this, disable upgrades
 of openjdk-7-jdk package:
 
-    echo “openjdk-7-jdk hold” | dpkg --set-selections
+    echo "openjdk-7-jdk hold" | sudo dpkg --set-selections
+
+To unhold the package (when you are doing `dist-upgrade`) run this:
+
+    echo "openjdk-7-jdk install" | sudo dpkg --set-selections
 
 View status of this package:
 
