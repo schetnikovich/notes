@@ -11,16 +11,15 @@ Then press CTRL+ALT+F7 and try to log in
 
 If you don't use sudo for GUI programs you won't get this issue. Commands lke:
 
-sudo gedit
-sudo nautilus
+    sudo gedit
+    sudo nautilus
+    
 will CAUSE this as it is not right. To run GUI apps with root access use:
 
-gksudo gedit
-gksudo nautilus
+    gksudo gedit
+    gksudo nautilus
+    
 And it won't make an issue.
-
-
-
 
 
 ### Turn your ubuntu to Xubuntu
