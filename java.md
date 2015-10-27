@@ -54,4 +54,15 @@ File -> Settings -> Editor -> Color & Fonts -> Font:
     Size: 17
     Line spacing: 1.0
 
+### Keyboard locks in IntelliJ IDEA on Ubuntu 14.04
+
+Keyboard input may be unlocked by restarting IBus daemon from a console:
+
+    ibus-daemon -rd
+
+Or IBus can be disabled for IDEA by unsetting env. variable XMODIFIERS, but ability to input 
+national characters in IDEA will be lost:
+
+    XMODIFIERS="" idea.sh
+
 
